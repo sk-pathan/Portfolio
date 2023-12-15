@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="page1">
+        <nav>
+            <h1>Shoaib Khan Pathan</h1>
+            <h1>Web Developer</h1>
+        </nav>
+        <div class="main">
+            <div class="resume ">
+                <h1>shoaib khan pathan</h1>
+                <h5> Web Developer </h5>
+                <div class="iconbar">
+                    <ul>
+                        <li><a href="www.linkedin.com/in/shoaib-kp"><i class="ri-linkedin-box-fill"></i></a></i></li>
+                        <li><a href="https://github.com/sk-pathan"><i class="ri-github-fill"></i></a></li>
+                        <li><a href="#page4"><i class="ri-mail-line"></i></a></li>
+                    </ul>
+                    <a href="./image/ProtfolioResume.pdf" download><button>resume</button></a>
+                    
+                </div>
+            </div>
+            <div class="image center">
+                <div class="photo center"><img src="./image/photo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="scroll">
+            <i class="ri-arrow-down-double-fill"></i>
+        </div>
+    </div>
+    <div class="page2">
+        <div class="photoContainer center">
+                 <img src="./image/isometric-scenes-addons-customer-service.jpg" alt="">
+        </div>
+        <div class="about">
+            <h1>ABOUT ME</h1>
+            <p>
+                I'm passionate about creating innovative, user-friendly websites. <br> Explore my projects showcasing
+                expertise in HTML, CSS, JavaScript, and more. <br> Let's collaborate – reach out me through the contact
+                page. <br>Excited to bring your digital ideas to life</p>
+                <div class="center">
+                    <ul>
+                        <li class="under active" onclick="onClick('skill')">SKILL</li>
+                        <li class="under" onclick="onClick('education')">Education</li>
+                    </ul>
+                </div>
+                <div class="skill active" id="skill">
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS5</li>
+                            <li>JavaScript</li>
+                            <li>GSAP.js</li>
+                            <li>Locomotive.js</li>
+                            <li>Bootstrap</li>
+                            <li>Git & Github</li>
+                            <li>Tailwind CSS</li>
+                            <li>MongoDB</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                        </ul>
+                </div>
+                <div class="skill " id="education">
+                    <ul>
+                        <li><h5>BACHELOR OF TECHNOLOGY</h5></li>
+                        <li>TECHNO INDIA NJR INSTITUDE OF TECHNOLOGY</li>
+                        <li>Udaipur(Rajasthan,India)</li>
+                    </ul>
+                </div>
+        </div>
+
+    </div>
+    <div class="page3">
+        <div class="Work">
+            <h1 class="id">My Work</h1>
+            <div class="projects">
+                <div class="card">
+                    <h1>VMS</h1>
+                    <p>a comprehensive vehicle management website developed using the MERN stack! 🚀🔧 Thrilled to have
+                        successfully implemented MongoDB, Express.js, React, and Node.js to create a seamless and
+                        efficient solution for managing vehicles. </p>
+                    <div class="slider">
+                            <img src="./image/image1.png" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <h1>Awarded Website</h1>
+                    <p> a clone of Awarded website on awwwards.com</p>
+                    <video src="./image/awardClone.mp4" autoplay muted loop></video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page4" id="page4">
+        <div id="tag">
+            <h1>Contact Me</h1>
+            <div class="descript">
+                <h2>Let's collaborate together <br>&<br>bring your digital ideas to life</h2>
+            </div>
+        </div>
+        <div class="form">
+            <form action=""></form>
+            <input type="text" placeholder="name">
+            <input type="text" placeholder="Email">
+            <textarea placeholder="Message" rows="6"></textarea>
+            <button type="submit"><i class="ri-send-plane-fill" style="margin-right: 5px;"></i>Send</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
